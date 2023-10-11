@@ -11,6 +11,8 @@ while True:
     diff = salary - spend
     money_capital += diff
 
+    # money_capital -= abs(diff)
+
     if money_capital <= 0:
         break
     else:
