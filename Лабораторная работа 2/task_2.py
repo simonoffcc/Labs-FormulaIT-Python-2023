@@ -11,7 +11,7 @@ for _ in range(months):
     diff = salary - spend
     money_capital -= diff
     
-    # money_capital += diff
+    # money_capital += abs(diff)
 
     spend += spend * increase
 
